@@ -1,10 +1,9 @@
 import './styles/Footer.css';
-import iconWhite from '../../images/icono-blanco.svg';
 
 function Footer() {
   return (
     <footer className="section-dark d-flex flex-column align-items-center justify-content-center">
-      <img className="footer-logo" src={iconWhite} alt="Portfolio's logo" />
+      <img className="footer-logo" src="" alt="Portfolio's logo" />
       <p className="footer-text text-center">
         I learn and create every day.<br />
         Let's create a project together.

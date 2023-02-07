@@ -1,5 +1,5 @@
 import './styles/Hero.css'
-import heroPic from '../../images/desarrollador5.svg';
+
 
 function Hero() {
   return (
@@ -22,7 +22,7 @@ function Hero() {
         </p>
       </div>
       <div className='hero-pic'>
-        <img className='hero-image-developer' src={heroPic} alt='profile pic'></img>
+        <img className='hero-image-developer' src="" alt='profile pic'></img>
       </div>
     </main>
   );
