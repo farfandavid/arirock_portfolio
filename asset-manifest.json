@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/arirock_portfolio/static/css/main.3b2d4fb4.css",
-    "main.js": "/arirock_portfolio/static/js/main.75116c4f.js",
+    "main.css": "/arirock_portfolio/static/css/main.a121b50f.css",
+    "main.js": "/arirock_portfolio/static/js/main.c2a706da.js",
+    "static/media/bg_info.png": "/arirock_portfolio/static/media/bg_info.5015bd2121daf4fcb6d8.png",
     "static/media/navbar.svg": "/arirock_portfolio/static/media/navbar.f1ffe11775b8b24f690e.svg",
     "static/media/bg_side.svg": "/arirock_portfolio/static/media/bg_side.392bce8571a649c8c0eb.svg",
     "index.html": "/arirock_portfolio/index.html",
-    "main.3b2d4fb4.css.map": "/arirock_portfolio/static/css/main.3b2d4fb4.css.map",
-    "main.75116c4f.js.map": "/arirock_portfolio/static/js/main.75116c4f.js.map"
+    "main.a121b50f.css.map": "/arirock_portfolio/static/css/main.a121b50f.css.map",
+    "main.c2a706da.js.map": "/arirock_portfolio/static/js/main.c2a706da.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b2d4fb4.css",
-    "static/js/main.75116c4f.js"
+    "static/css/main.a121b50f.css",
+    "static/js/main.c2a706da.js"
   ]
 }
