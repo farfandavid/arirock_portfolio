@@ -33,16 +33,16 @@ function NavBar() {
 
         <ul className='navbar-list' >
           <li >
-            <a aria-current="page" href='#about-me' >About me</a>
+            <a aria-current="page" href='#about-me' >Sobre Mi</a>
           </li>
           <li >
-            <a href="#project">Projects</a>
+            <a href="#project">Artes</a>
           </li>
           <li >
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonials">Productos</a>
           </li>
           <li >
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contactos</a>
           </li>
         </ul>
       </div>

@@ -4,22 +4,14 @@ function AboutMe() {
   return (
     <section id="about-me" className="about-me section-dark">
       <div className="about-me-container">
-        <h2 className="section-title rainbow-bg">About Me</h2>
+        <h2 className="section-title">Sobre Mi</h2>
         <div className='about-me-info'>
           <p>
-            Hello! My name is David and I enjoy creating things that live on the internet. My interest in web development started back in 2017 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML &amp; CSS!
+            Nacio en la provincia de Jujuy - Yungas. Realizando Murales y Grafitis en su Secundaria como así Terminando su secundaria en un Bachiller Común de la localidad de Calilegua. 2012 curso de Grafitis y 2015 Curso de Artesano en la escuela profesional de la localidad y en donde después toma el viaje a S.s. de Jujuy para trabajar de la pintura. Participando así en diversas exposiciones Colectivas desde 2017 “Provinciales y Nacionales”. Como también en diversos encuentros Provinciales y Nacionales de Muralismo.
           </p>
           <p>
-            Here are a few technologies I’ve been working with recently:
+            Sobre sus obras se expresan en la cultura de Jujuy como las yungas. Su paisaje como su vegetación la diversidad de animales que lo compone, su pueblo como la gente, sus expresiones, vestimenta, alimentos cotidianos de la zona y los días festivos como su creencia, la música dando ese toque especial que lo caracteriza con mayor fuerza la cultura guaraní de la provincia de Jujuy. Como así sus Obras expresan un mensaje de evangelización dando conocer a un Dios supremo lleno de amor y perdón.
           </p>
-          <ul className="skills-list">
-            <li>JavaScript (ES6+)</li>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Eleventy</li>
-            <li>Node.js</li>
-            <li>WordPress</li>
-          </ul>
         </div>
 
       </div>

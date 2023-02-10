@@ -1,51 +1,31 @@
 .about-me {
   display: flex;
-  flex-direction: column;
-  color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  width: 80%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background-image: url('../../../assets/bg_info.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 60px 0;
+}
+
+.about-me .section-title {
+  margin-bottom: 50px;
+}
+
+.about-me-container::-webkit-scrollbar {
+  color: transparent;
 }
 
 .about-me-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-.about-me-container .section-title {
-  width: 50%;
-  text-align: center;
+  overflow-y: scroll;
 }
 
 .about-me-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-width: 300px;
-  width: 35%;
-  margin-top: 50px;
-}
-
-.skills-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(100%, 100%));
-  gap: 0px 10px;
-  margin: 20px 0px 0px;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-}
-
-.skills-list li {
-  width: 100%;
-}
-
-@media screen and (max-width: 576px) {
-  .skills-list {
-    grid-template-columns: repeat(1, minmax(100%, 100%));
-  }
+  font-size: medium;
+  width: 60%;
 }

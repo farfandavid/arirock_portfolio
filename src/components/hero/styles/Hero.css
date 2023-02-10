@@ -60,6 +60,46 @@
   color: white;
 }
 
+@media (max-height: 550px) {
+
+
+  .hero-info {
+    display: flex;
+    background-image: url('../../../assets/bg_info.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    width: 50%;
+
+    padding: 5%;
+  }
+
+  .heroinfo-container {
+    width: 100%;
+  }
+
+  .hero-info h2 {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: medium;
+  }
+
+  .hero-info h1 {
+    font-size: larger;
+  }
+
+  .hero-social-media {
+    font-size: medium;
+  }
+
+
+  .hero-social-media a i {
+    margin: 0 10px;
+    font-size: medium;
+    color: white;
+  }
+}
+
 @media screen and (max-width: 767px) {
 
   /*  .hero-pic {
