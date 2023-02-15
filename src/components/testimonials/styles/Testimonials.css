@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .testimonials h2 {
@@ -22,7 +24,9 @@
 } */
 
 .testimonials .carousel {
-  max-width: 800px;
+  max-width: 80%;
+  background-color: #082e0018;
+  padding-top: 10px;
 }
 
 .carousel-item {
@@ -40,29 +44,30 @@
   justify-content: center;
 }
 
-.testimony-image {
-  height: 150px;
-  width: 150px;
+.art-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
   margin: 10px 10px 20px 10px;
 }
 
-.testimony-text {
+.art-text {
   max-width: 70%;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   font-family: 'Share Tech Mono', monospace;
 }
 
-.testimony-info {
+.art-info {
   font-weight: bold;
   text-align: center;
 }
 
-.testimony-info p {
+.art-info p {
   margin-bottom: 0;
 }
 
-.testimony-info .job {
+.art-info .art-size {
   font-size: 0.9rem;
   color: #656060;
 }
@@ -72,17 +77,20 @@
   font-size: 1.2rem;
 } */
 
-.testimony-info .client {
+.art-info .art-name {
   font-size: 1.2rem;
+  color: #082e00;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {
-  .testimony-image {
+  .art-image {
     height: 120px;
     width: 120px;
   }
 
-  .testimony-text {
+  .art-text {
     font-size: 18px;
   }
 }

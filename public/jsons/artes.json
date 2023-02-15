@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "image": "./image/arte/arte_1.jpg",
+        "name": "arte 1",
+        "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
+        "size": "20x20cm",
+        "price": 1000
+    },
+    {
+        "id": 2,
+        "image": "./image/arte/arte_2.jpg",
+        "name": "arte 2",
+        "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
+        "size": "20x20cm",
+        "price": 1000
+    },
+    {
+        "id": 3,
+        "image": "./image/arte/arte_3.jpg",
+        "name": "arte 3",
+        "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
+        "size": "20x20cm",
+        "price": 1000
+    },
+    {
+        "id": 4,
+        "image": "./image/arte/arte_4.jpg",
+        "name": "arte 4",
+        "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
+        "size": "20x20cm",
+        "price": 1000
+    },
+    {
+        "id": 5,
+        "image": "./image/arte/arte_5.jpg",
+        "name": "arte 5",
+        "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
+        "size": "20x20cm",
+        "price": 1000
+    }
+]
