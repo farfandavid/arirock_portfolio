@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Yaguarete",
+        "image": "./image/digital/dibujo1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Tucán",
+        "image": "./image/digital/dibujo2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dar Amor",
+        "image": "./image/digital/dibujo3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Emprendedores jujeños",
+        "image": "./image/digital/dibujo4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Obrero Jujeño",
+        "image": "./image/digital/dibujo5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Estoy Contigo - Isaias 41:10",
+        "image": "./image/digital/dibujo6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Batman",
+        "image": "./image/digital/dibujo7.jpg"
+    }
+]
