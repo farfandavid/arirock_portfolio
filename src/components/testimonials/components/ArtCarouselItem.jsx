@@ -1,6 +1,6 @@
-function ArtCarouselItem({ image, name, description, size }) {
+function ArtCarouselItem({ id, image, name, description, size }) {
   return (
-    <div className={name === 'arte 1' ? 'carousel-item active' : 'carousel-item'} >
+    <div className={id === 1 ? 'carousel-item active' : 'carousel-item'} >
       <div className="container">
         <img className="art-image" src={image} alt={description} />
         <p className="art-text">{description}</p>

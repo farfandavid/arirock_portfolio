@@ -1,5 +1,6 @@
 .testimonials {
   display: flex;
+  width: 80%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -24,10 +25,15 @@
 } */
 
 .testimonials .carousel {
+  width: 100%;
   max-width: 80%;
   background-color: #082e0018;
   padding-top: 10px;
+  border-radius: 15px;
+  margin-bottom: 50px;
 }
+
+
 
 .carousel-item {
   height: 500px;
@@ -84,6 +90,58 @@
   font-weight: bold;
 }
 
+/* Dibujos*/
+
+.draws-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #082e0018;
+  border-radius: 15px;
+  height: 650px;
+  overflow-y: scroll;
+  max-width: 90%;
+  margin-bottom: 50px;
+}
+
+.draw-card {
+  margin: 10px 20px;
+}
+
+.draw-image img {
+  height: 250px;
+  border-radius: 20px;
+}
+
+/* Digital*/
+.digdraw-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: center;
+  background-color: #082e0018;
+  border-radius: 15px;
+  height: 650px;
+  overflow-y: scroll;
+
+}
+
+.digdraw-container .card {
+  height: fit-content;
+  margin: 5px;
+}
+
+.digdraw-container>.card>img {
+  height: 300px;
+}
+
+.digdraw-container .card-title {
+  background-color: #082e008c;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px;
+}
+
 @media screen and (max-width: 800px) {
   .art-image {
     height: 120px;
@@ -91,6 +149,25 @@
   }
 
   .art-text {
-    font-size: 18px;
+    font-size: 15px;
   }
+
+  .draws-container {
+    height: 500px;
+    justify-content: center;
+  }
+
+  .draw-card {
+    margin: 10px 10px;
+  }
+
+  .draw-image img {
+    height: 150px;
+    border-radius: 20px;
+  }
+
+  .digdraw-container>.card>img {
+    height: 180px;
+  }
+
 }

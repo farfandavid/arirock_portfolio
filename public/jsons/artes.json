@@ -2,31 +2,31 @@
     {
         "id": 1,
         "image": "./image/arte/arte_1.jpg",
-        "name": "arte 1",
-        "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
-        "size": "20x20cm",
-        "price": 1000
+        "name": "Gaucho Guarani",
+        "description": "",
+        "size": "140x65cm",
+        "price": 6000
     },
     {
         "id": 2,
         "image": "./image/arte/arte_2.jpg",
-        "name": "arte 2",
-        "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
+        "name": "El Alfarero - Jeremia",
+        "description": "Y descendí a casa del alfarero, y he aquí que él trabajaba sobre la rueda. Y la vasija de barro que él hacía se echó a perder en su mano; y volvió y la hizo otra vasija, según le pareció mejor hacerla.",
         "size": "20x20cm",
         "price": 1000
     },
     {
         "id": 3,
         "image": "./image/arte/arte_3.jpg",
-        "name": "arte 3",
-        "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
+        "name": "Lazos Profundo",
+        "description": "",
         "size": "20x20cm",
         "price": 1000
     },
     {
         "id": 4,
         "image": "./image/arte/arte_4.jpg",
-        "name": "arte 4",
+        "name": "Aguila Arpia",
         "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
         "size": "20x20cm",
         "price": 1000
@@ -34,9 +34,9 @@
     {
         "id": 5,
         "image": "./image/arte/arte_5.jpg",
-        "name": "arte 5",
-        "description": "La Harpía es la rapaz más poderosa que existe. Además es el águila más grande que se puede encontrar en la actualidad en América, entrando incluso en el ranking de águilas más grandes de todo el mundo.",
-        "size": "20x20cm",
+        "name": "Lazos (Loros Aliseros)",
+        "description": "",
+        "size": "30x30cm",
         "price": 1000
     }
 ]
