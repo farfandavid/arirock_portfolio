@@ -37,6 +37,11 @@
   height: 15px;
 }
 
+.shirt-link-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .shirt-link {
   margin: 0 10px;
   text-decoration: none;
@@ -66,4 +71,23 @@
   .shirt-details {
     display: none;
   }
+
+  .shirt-link i {
+    font-size: xx-small;
+  }
+}
+
+@media (max-height: 550px) {
+  .products-content {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .products-content>div {
+    width: 90%;
+  }
+
 }

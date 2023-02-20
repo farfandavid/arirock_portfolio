@@ -248,3 +248,14 @@
     border-radius: 10px 10px 0 0;
   }
 }
+
+@media (max-height: 550px) {
+  .bodypaint-info {
+    width: 50%;
+  }
+
+  .bodypaint-gallery img {
+
+    height: 200px;
+  }
+}

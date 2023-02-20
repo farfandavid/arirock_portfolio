@@ -9,7 +9,7 @@
 .about-me-container {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 60%;
   background-color: #082e0018;
 }
 
@@ -17,8 +17,9 @@
   font-size: large;
   font-weight: bold;
   margin-top: 30px;
-
+  height: 500px;
   padding: 10px;
+  overflow-y: scroll;
 }
 
 .about-me-pic-container {

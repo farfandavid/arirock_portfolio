@@ -20,13 +20,14 @@ function ProductCard({ name, details, colors, size, zone, image }) {
                 <b key={name + 'sizes' + sizes} >{sizes} </b>
               ))
             } </p>
-            <p className="card-text"><small className="text-muted">Envio: {zone}</small>
+            <p className="card-text shirt-link-container">
               <a
                 className="shirt-link"
                 href={'https://api.whatsapp.com/send?phone=5493886652672&text=Hola+me+interesa+la+remera+de+' + name}
                 target="_blank"
                 rel="noreferrer noopener"
-              ><i className="bi bi-whatsapp">Consultar</i></a></p>
+              ><i className="bi bi-whatsapp">Consultar</i></a>
+            </p>
           </div>
         </div>
       </div>

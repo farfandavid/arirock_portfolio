@@ -12,7 +12,7 @@ function App() {
       <NavBar></NavBar>
       <Hero></Hero>
       <AboutMe></AboutMe>
-      <div id="arts" className='divider'>Artes</div>
+      <div id="arts" className='divider mt-5'>Artes</div>
       <Testimonials />
       <div id="products" className='divider'>Productos</div>
       <Products></Products>
