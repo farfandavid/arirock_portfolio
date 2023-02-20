@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "title": "Pintura Acustica",
+        "models": "Sofii Zuleta",
+        "artists": "Ezequiel Arirock Ramirez",
+        "organizers": "Realizado en el Evento Artistico Oraganizado Fernanda Calapiña y Juan Pablo Ramirez en ArteBar ",
+        "description": "Colaboracion de Encotrarte Cecilia Zuleta Martin Alarcon Capitán De Mi Alma Maby Flores Fabiana Ines Chavez",
+        "pics": [
+            "./image/body_paint/body1.jpg",
+            "./image/body_paint/body2.jpg",
+            "./image/body_paint/body3.jpg",
+            "./image/body_paint/body4.jpg",
+            "./image/body_paint/body5.jpg",
+            "./image/body_paint/body6.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Inmortales Americanos",
+        "models": "Melina Aliaga / Coquena",
+        "artists": "Ezequiel Arirock Ramirez & Gii Tolaba",
+        "organizers": "Ezequiel Torres",
+        "description": "Agradecido por la Invitación al encuentro Provincial de BoodyPaint en Jujuy 🎨",
+        "pics": [
+            "./image/body_paint/body7.jpg",
+            "./image/body_paint/body8.jpg",
+            "./image/body_paint/body9.jpg",
+            "./image/body_paint/body10.jpg",
+            "./image/body_paint/body11.jpg",
+            "./image/body_paint/body12.jpg",
+            "./image/body_paint/body13.jpg",
+            "./image/body_paint/body14.jpg"
+        ]
+    }
+]

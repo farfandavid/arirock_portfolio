@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "name": "Remera - Jesus",
+        "details": "Tela de Algodon / Cuello Redondo / Manga Corta",
+        "colors": [
+            "black"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "zone": "Interior de Argentina",
+        "image": "./image/t_shirt/shirt1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Remera - Yaguarete",
+        "details": "Tela de Algodon / Cuello Redondo / Manga Corta",
+        "colors": [
+            "black"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "zone": "Interior de Argentina",
+        "image": "./image/t_shirt/shirt2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Remera - Tucan",
+        "details": "Tela de Algodon / Cuello Redondo / Manga Corta",
+        "colors": [
+            "black"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "zone": "Interior de Argentina",
+        "image": "./image/t_shirt/shirt3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Remera - Dar Amor",
+        "details": "Tela de Algodon / Cuello Redondo / Manga Corta",
+        "colors": [
+            "black"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "zone": "Interior de Argentina",
+        "image": "./image/t_shirt/shirt4.jpg"
+    }
+]
