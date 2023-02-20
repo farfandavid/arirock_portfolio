@@ -1,0 +1,69 @@
+.products {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.products-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  max-height: 600px;
+  background-color: #082e0018;
+}
+
+.products-content>div {
+  width: 45%;
+  margin: 5px;
+}
+
+.shirt-color {
+  display: flex;
+  align-items: center;
+}
+
+.shirt-color div {
+  border: 2px solid gray;
+  margin: 0 3px;
+  width: 15px;
+  height: 15px;
+}
+
+.shirt-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #116400cb;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .products-content {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .products-content>div {
+    width: 90%;
+  }
+
+  .products-content * {
+    font-size: small;
+  }
+
+  .shirt-details {
+    display: none;
+  }
+}

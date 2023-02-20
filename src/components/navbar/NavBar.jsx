@@ -36,10 +36,10 @@ function NavBar() {
             <a aria-current="page" href='#about-me' >Sobre Mi</a>
           </li>
           <li >
-            <a href="#project">Artes</a>
+            <a href="#arts">Artes</a>
           </li>
           <li >
-            <a href="#testimonials">Productos</a>
+            <a href="#products">Productos</a>
           </li>
           <li >
             <a href="#contact">Contactos</a>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import ArtCarouselItem from './components/ArtCarouselItem';
+import BodyContent from './components/BodyContent';
 import DigitalDrawCard from './components/DigitalDrawCard';
 import DrawCard from './components/DrawCard';
 import './styles/Testimonials.css'
@@ -46,14 +47,29 @@ function DigitalDrawsData() {
   return digitalDrawsData;
 }
 
+function BodyPaintData() {
+  const [bodyPaintData, setBodyPaintData] = useState([]);
+
+  useEffect(() => {
+    fetch("jsons/body_paint.json")
+      .then(response => response.json())
+      .then(datos => {
+        setBodyPaintData(datos)
+      })
+  }, []);
+  console.log(bodyPaintData)
+  return bodyPaintData;
+}
+
 function Testimonials() {
 
   const arts = ArtsData();
   const draws = DrawsData();
   const digitalDraws = DigitalDrawsData();
+  const bodypaints = BodyPaintData();
 
   return (
-    <section id="testimonials" className="testimonials section-light">
+    <section className="testimonials section-light">
       <h2 className="section-title">Obras</h2>
       <h3 className="section-description">Una pequeña demostracion de algunas de mis obras</h3>
       {/* <!-- Carousel --> */}
@@ -88,7 +104,6 @@ function Testimonials() {
         }
       </div>
       <h2 className="section-title">Dibujos Digitales</h2>
-      <h3 className="section-description">Digitales</h3>
 
       <div className='digdraw-container'>
         {
@@ -98,6 +113,22 @@ function Testimonials() {
               image={digitalDraw.image}
               name={digitalDraw.name}
             ></DigitalDrawCard>
+          ))
+        }
+      </div>
+      <h2 className="section-title mt-5">Body Paint</h2>
+      <div className='bodypaint-container'>
+        {
+          bodypaints.map(paint => (
+            <BodyContent
+              key={paint.id + 'body'}
+              artists={paint.artists}
+              description={paint.description}
+              models={paint.models}
+              organizers={paint.organizers}
+              title={paint.title}
+              pics={paint.pics}
+            ></BodyContent>
           ))
         }
       </div>

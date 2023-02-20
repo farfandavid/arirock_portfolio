@@ -142,6 +142,55 @@
   padding: 5px;
 }
 
+
+/* Body Paint*/
+
+.bodypaint-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: #082e0018;
+  height: 680px;
+  overflow-y: scroll;
+}
+
+.bodypaint-content {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  max-height: 350px;
+}
+
+.bodypaint-info {
+  width: 25%;
+  background-color: #000000a1;
+  padding: 5px;
+  border-radius: 10px 0 0 10px;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.bodypaint-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 300px;
+  width: 75%;
+  overflow-x: scroll;
+  background-color: #182d556b;
+  border-radius: 0 10px 10px 0;
+  align-items: center;
+}
+
+
+
+.bodypaint-gallery img {
+
+  height: 250px;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 800px) {
   .art-image {
     height: 120px;
@@ -170,4 +219,32 @@
     height: 180px;
   }
 
+
+  .bodypaint-container {
+    padding: 0;
+  }
+
+  .bodypaint-content {
+    flex-direction: column;
+    max-height: 650px;
+    width: 100%;
+  }
+
+  .bodypaint-content>div {
+    width: 100%;
+  }
+
+  .bodypaint-gallery {
+    height: 250px;
+    border-radius: 0 0px 10px 10px;
+  }
+
+  .bodypaint-gallery img {
+
+    height: 200px;
+  }
+
+  .bodypaint-info {
+    border-radius: 10px 10px 0 0;
+  }
 }

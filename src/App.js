@@ -3,6 +3,7 @@ import AboutMe from './components/aboutMe/AboutMe';
 import Hero from './components/hero/Hero';
 
 import NavBar from './components/navbar/NavBar';
+import Products from './components/products/Products';
 import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
@@ -10,9 +11,11 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <Hero></Hero>
-      <div className='divider'></div>
       <AboutMe></AboutMe>
+      <div id="arts" className='divider'>Artes</div>
       <Testimonials />
+      <div id="products" className='divider'>Productos</div>
+      <Products></Products>
     </div>
   );
 }
