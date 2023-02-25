@@ -1,5 +1,7 @@
 import './App.css';
 import AboutMe from './components/aboutMe/AboutMe';
+import ContactMe from './components/contactMe/ContactMe';
+import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
 
 import NavBar from './components/navbar/NavBar';
@@ -16,6 +18,9 @@ function App() {
       <Testimonials />
       <div id="products" className='divider'>Productos</div>
       <Products></Products>
+      <div id="products" className='divider'>Contactame</div>
+      <ContactMe></ContactMe>
+      <Footer></Footer>
     </div>
   );
 }

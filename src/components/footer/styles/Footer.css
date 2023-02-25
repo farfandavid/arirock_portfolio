@@ -1,19 +1,25 @@
 footer {
-  min-height: 500px;
   color: white;
+  background-image: url(./../../../assets/bg_bottom.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 300px;
 }
 
 .footer-logo {
   height: 80px;
   width: 80px;
-  margin: 10px;
+  background: radial-gradient(circle at center, #05A87F 0%, #31f8af 100%);
+  border-radius: 50%;
 }
 
 .footer-text {
   font-size: 1.5rem;
-  padding: 20px;
-  margin-bottom: 30px;
+  font-weight: bold;
   font-family: 'Quicksand', sans-serif;
+  margin-bottom: 0;
 }
 
 .icons-social-media a {
@@ -50,9 +56,19 @@ footer {
 
 .copyright {
   font-size: 15px;
-  color: #aeaeae;
-  padding: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
+}
+
+.copyright a {
+  margin: 0 5px;
+  font-size: large;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }

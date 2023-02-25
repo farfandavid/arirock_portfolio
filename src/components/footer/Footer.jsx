@@ -2,25 +2,23 @@ import './styles/Footer.css';
 
 function Footer() {
   return (
-    <footer className="section-dark d-flex flex-column align-items-center justify-content-center">
-      <img className="footer-logo" src="" alt="Portfolio's logo" />
+    <footer className="section-dark d-flex flex-column align-items-center justify-content-end">
+
       <p className="footer-text text-center">
-        I learn and create every day.<br />
-        Let's create a project together.
+        <img className="footer-logo" src="./image/logo.png" alt="Portfolio's logo" /> Portafolio AriRock
       </p>
-      <div className="icons-social-media d-flex flex-wrap align-items-center justify-content-center">
-        <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-twitter"></i>
-        </a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-facebook"></i>
-        </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-instagram"></i>
-        </a>
-      </div>
+
       <div className="copyright">
         Designed and Developed <br /> by <br /> Farfan David Dante (2023) &#169;
+        <a href="mailto: farfandavid34@gmail.com" target='_blank' rel='noopener noreferrer' >
+          <i className='bi bi-envelope-at'></i>
+        </a>
+        <a href="https://www.linkedin.com/in/david-dante-farfan/" target='_blank' rel='noopener noreferrer' >
+          <i className='bi bi-linkedin'></i>
+        </a>
+        <a href="https://wa.link/jdui33" target='_blank' rel='noopener noreferrer' >
+          <i className='bi bi-whatsapp'></i>
+        </a>
       </div>
     </footer>
   );

@@ -10,7 +10,7 @@ function Hero() {
       </div>
       <div className='hero-info'>
         <div className='heroinfo-container'>
-          <h2 className='rainbow-bg'>Hola! Soy</h2>
+          <h2>Hola! Soy</h2>
           <h1>Ariel Ezequiel Ramirez</h1>
           <p className='MyTitle'>Artista Visual</p>
           <p> <i> "Los trazos de sus pinceladas son un estilo en particular del artista que lo identifica con la gran diversidad de colores con sus tonalidades dando esa expresión geométrica figurativa describiendo la cultura de Jujuy."</i></p>
