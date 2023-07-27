@@ -15,7 +15,6 @@ function ArtsData() {
         setArtsData(datos)
       })
   }, []);
-  console.log(artsData)
   return artsData;
 }
 
@@ -29,7 +28,6 @@ function DrawsData() {
         setDrawsData(datos)
       })
   }, []);
-  console.log(drawsData)
   return drawsData;
 }
 
@@ -43,7 +41,6 @@ function DigitalDrawsData() {
         setDigitalDrawsData(datos)
       })
   }, []);
-  console.log(digitalDrawsData)
   return digitalDrawsData;
 }
 
@@ -57,7 +54,6 @@ function BodyPaintData() {
         setBodyPaintData(datos)
       })
   }, []);
-  console.log(bodyPaintData)
   return bodyPaintData;
 }
 
