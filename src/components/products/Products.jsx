@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react';
 import ProductCard from './components/ProductCard';
 import './styles/Products.css'
-import { NotionApi } from '../../services/products';
 
 
 function ProductsData() {
   const [ProductData, setProductData] = useState([]);
-  NotionApi();
   useEffect(() => {
     fetch("jsons/shirt.json")
       .then(response => response.json())
